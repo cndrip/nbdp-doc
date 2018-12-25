@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* [新的文档](xin-de-wen-dang.md)
+* [总体介绍](about.md)
 * [First Chapter](chapter1.md)
+
 
