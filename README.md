@@ -1,3 +1,7 @@
-# My Awesome Book
+# 水滴信息学平台使用说明
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+这个是水滴信息学平台操作指南文档。包括初赛题库和 OJ 题库
+- [水滴信息学 OJ ](http://oj.nbdp.net)
+- [水滴信息学初赛题库](http://lib.nbdp.net)
+
+
