@@ -5,10 +5,6 @@
 * [OJ平台](about.md) 
   * [学生手册](studentmd.md)
   * [教师操作手册](oj/teacher.md)
-  * [学生手册](studentmd.md)
-
-
-
 * [First Chapter](chapter1.md)
  
 
