@@ -9,5 +9,6 @@
 * [初赛题库](lib/readme.md)
 * [First Chapter](chapter1.md)
 * [网站大事记](remark.md)
-* [注册](zhu-ce.md)
+* [注册](login/register.md)
+* [登录](login/login.md)
 
