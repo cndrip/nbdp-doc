@@ -7,7 +7,7 @@
   * [登录](login/login.md)
 * [OJ平台](oj/readme.md)
   * [学生手册](oj/student.md)
-    * [问题1000](oj/student/first.md)
+    * [问题1000](oj/student/1000.md)
   * [教师操作手册](oj/teacher.md)
   * [升级记录](oj/update.md)
 * [初赛题库](lib/readme.md)
