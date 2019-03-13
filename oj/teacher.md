@@ -2,7 +2,7 @@
 
 * [权限获得](/oj/teacher/privatemd.md)
 * [查看前台](/oj/teacher/watch.md)
-* 问题列表
+* [问题列表](/oj/teacher/problemset.md)
 * 添加竞赛
 * 竞赛列表
 * 复制比赛
