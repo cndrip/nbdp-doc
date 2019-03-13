@@ -1,4 +1,4 @@
-[](/oj/teacher/contest.md)# 教师操作手册
+[](/oj/teacher/viewcode.md)[](/oj/teacher/contest.md)# 教师操作手册
 
 * [权限获得](/oj/teacher/private.md)
 * [查看前台](/oj/teacher/watch.md)
