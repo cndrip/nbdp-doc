@@ -19,6 +19,5 @@
     * [筛查作弊](oj/teacher/cheat.md)
   * [升级记录](oj/update.md)
 * [初赛题库](lib/readme.md)
-* [First Chapter](chapter1.md)
 * [网站大事记](remark.md)
 
