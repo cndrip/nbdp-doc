@@ -10,7 +10,8 @@
     * [问题1000](oj/student/1000.md)
   * [教师操作手册](oj/teacher.md)
     * [权限获得](oj/teacher/privatemd.md)
-    * watch
+    * [查看前台](oj/teacher/watch.md)
+    * [问题列表](oj/teacher/problemset.md)
   * [升级记录](oj/update.md)
 * [初赛题库](lib/readme.md)
 * [First Chapter](chapter1.md)
