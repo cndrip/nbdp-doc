@@ -1,6 +1,6 @@
 # 教师操作手册
 
-* [权限获得](/oj/teacher/privatemd.md)
+* [权限获得](/oj/teacher/private.md)
 * [查看前台](/oj/teacher/watch.md)
 * [问题列表](/oj/teacher/problemset.md)
 * 添加竞赛
