@@ -12,7 +12,7 @@
     * [权限获得](oj/teacher/privatemd.md)
     * [查看前台](oj/teacher/watch.md)
     * [问题列表](oj/teacher/problemset.md)
-    * [addcontest](oj/teacher/addcontest.md)
+    * [添加竞赛](oj/teacher/addcontest.md)
   * [升级记录](oj/update.md)
 * [初赛题库](lib/readme.md)
 * [First Chapter](chapter1.md)
