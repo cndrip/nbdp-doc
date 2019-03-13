@@ -5,7 +5,7 @@
 * [问题列表](/oj/teacher/problemset.md)
 * [添加竞赛](/oj/teacher/addcontest.md)
 * [竞赛列表](/oj/teacher/contest.md)
-* 复制比赛
+* [复制比赛](/oj/teacher/copytest.md)
 * [查看学生源码](/oj/teacher/viewcode.md)
 * [筛查作弊](/oj/teacher/cheat.md)
 * 在线指导
