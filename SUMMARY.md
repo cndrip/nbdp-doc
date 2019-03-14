@@ -12,10 +12,17 @@
     * [权限获得](oj/teacher/privatemd.md)
     * [查看前台](oj/teacher/watch.md)
     * [问题列表](oj/teacher/problemset.md)
+<<<<<<< HEAD
     * [添加竞赛](oj/teacher/addcontent.md)
     * [竞赛列表](oj/teacher/contest.md)
+=======
+    * [添加竞赛](oj/teacher/addcontest.md)
+    * [竞赛列表](oj/teacher/contest.md)
+    * [复制比赛](oj/teacher/copytest.md)
+    * [查看学生源码](oj/teacher/viewcode.md)
+    * [筛查作弊](oj/teacher/cheat.md)
+>>>>>>> 72e639598263af87c2d20a1c7cbbb4df1f4bc906
   * [升级记录](oj/update.md)
 * [初赛题库](lib/readme.md)
-* [First Chapter](chapter1.md)
 * [网站大事记](remark.md)
 

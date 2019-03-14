@@ -2,8 +2,11 @@
     "plugins": [
         "lunr",
         "search",
+        "anchorjs",
         "sharing",
-        "theme-default"
+        "splitter",
+        "theme-default-customize",
+        "expandable-chapters-small"
     ],
     "language" : "zh-hans",
     "styles": {
