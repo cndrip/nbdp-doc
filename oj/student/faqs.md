@@ -57,7 +57,6 @@ Compile Error: 编译错误，请点击后获得编译器的详细输出。
 ---
 
 Q:如何参加在线比赛?
-A:[注册](http://login.nbdp.net/register.php)
-
-一个帐号，然后就可以练习，点击比赛列表Contests可以看到正在进行的比赛并参加。
+A:[注册](http://login.nbdp.net/register.html)
+一个帐号，然后就可以练习，点击比赛列表`Contests`可以看到正在进行的比赛并参加。
 
