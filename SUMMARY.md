@@ -8,6 +8,7 @@
 * [OJ平台](oj/readme.md)
   * [学生手册](oj/student.md)
     * [常见问题](oj/student/faqs.md)
+    * [格式错误](oj/student/formaterror.md)
     * [问题1000](oj/student/1000.md)
   * [教师操作手册](oj/teacher.md)
     * [权限获得](oj/teacher/privatemd.md)
