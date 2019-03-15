@@ -1,4 +1,4 @@
-### 答案正确（Acepted， AC）
+### 答案正确 （Acepted， AC）
 
 恭喜你！所提交的代码通过了数据！这个评测结果应该是大家最喜欢见到的，也非常好理解。如果是单点测试，那么通过一组数据，就会返回一个`Accepted`；如果是多点测试，那么只有当通过了所有数据时，才会返回`Accepted`。  
 分以下三种情况
@@ -9,7 +9,7 @@
 
 ### 格式错误 （Presentation Error，PE）
 
-输出结果行末没有**换行**或**有多余换行**以及**行末有空格**均算格式错误！
+**原因：**输出结果行末没有_换行_或_有多余换行_以及_行末有空格_均算格式错误！
 
 * ![](/images/oj/student/format.png)
 
@@ -25,13 +25,21 @@
   for i:=1 to 10 do write(i,' ');
 ```
   正确的写法是 
-  ```pascal
-  for i:=1 to 9 do write\(i,' ');
+```pascal
+  for i:=1 to 9 do write(i,' ');
   writeln(10);
-  ```
+```
+  C++：不能写成 
+```C++ 
+  for (int i = 1; i<= 10; i ++) 
+     printf("%d ",i); 
+```
+应写成   
+```C++ 
+ for( int i = 1; i &lt;= 9; i ++ ) printf( "%d ", i ); printf( "%dn", 10 ); 
+```
 
-  
-  for i:=1 to 9 do write\(i,'' ''\); writeln\(10\);\r\nC++：\r\n不能写成 for\(int i = 1; i &lt;= 10; i ++ \) printf\("%d ",i\); \r\n应写成 for\( int i = 1; i &lt;= 9; i ++ \) printf\( "%d ", i \); printf\( "%d\n", 10 \);        \r\n\r\n对于数据a\(10\);\r\nPASCAL：\r\n\[code\]不能这样写 for i:=1 to 10 do write\(a\[i\],'' ''\); \r\n正确的写法是 for i:=1 to 9 do write\(a\[i\],'' ''\); writeln\(a\[10\]\);\[/code\]\r\n\r\n', '220.189.223.234', 3778, 0, 0, 1, 0, 0, -1, 0, 0, 0, 0, 0, '', 0, 0, 1\),
+  for (int i = 1; i &lt;= 10; i ++ \) printf\("%d ",i\); \r\n应写成 for\( int i = 1; i &lt;= 9; i ++ \) printf\( "%d ", i \); printf\( "%d\n", 10 \);        \r\n\r\n对于数据a\(10\);\r\nPASCAL：\r\n\[code\]不能这样写 for i:=1 to 10 do write\(a\[i\],'' ''\); \r\n正确的写法是 for i:=1 to 9 do write\(a\[i\],'' ''\); writeln\(a\[10\]\);\[/code\]\r\n\r\n', '220.189.223.234', 3778, 0, 0, 1, 0, 0, -1, 0, 0, 0, 0, 0, '', 0, 0, 1\),
 
 ### 编译错误（Compile Error，CE）
 
