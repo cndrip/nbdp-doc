@@ -29,13 +29,13 @@
 
 这一结果的可能性非常多，常见的有段错误（直接的原因时非法访问了内存，例如数组越界，指针乱指），浮点错误（例如除数为0，模数为0），递归爆栈（一般由递归时层数过深导致的）等。一般来说，需要先检查数组大小是否比题目的数据范围大，然后再去检查可不可能有特殊数据可以使除数或者模数为0，有递归的情况则检查是否在大数据时递归层数太深。
 
-### 内存超限（Memory Limit Exceed，MLE）
+### 内存超限（Memory Limit Exceed，MLE）![](/images/oj/student/mle1.png)![](/images/oj/student/mle2.png)
 
 每道题目都有规定程序使用的空间上限，因此如果程序中使用太多的空间，则会返回MLE，例如数组太大一般最容易导致这个结果。  
 格式错误（Presentation Error， PE）  
   这应该是最接近Accepted 的错误了，基本上由多输出了空格或者换行导致的，稍作修改即可。
 
-### 输出超限（Output Limit Exceeded， OLE）
+### 输出超限（Output Limit Exceeded， OLE）![](/images/oj/student/ole1.png)![](/images/oj/student/ole2.png)
 
 如果程序输出了过量的内容（一般是指过量非常多），那么就会返回OLE。一般是由输出了大量的调试信息或者特殊数据导致的死循环输出导致的。
 
