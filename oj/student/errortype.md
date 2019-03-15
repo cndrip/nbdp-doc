@@ -36,10 +36,17 @@
 ```
 应写成   
 ```C++ 
- for( int i = 1; i &lt;= 9; i ++ ) printf( "%d ", i ); printf( "%dn", 10 ); 
+ for( int i = 1; i <= 9; i ++ ) printf( "%d ", i ); 
+ printf( "%d\n", 10 ); 
 ```
+对于数组`a(10)`;
+PASCAL：
+不能这样写 
+for i:=1 to 10 do write(a\[i\],'' ''\); 
+正确的写法是 
+for i:=1 to 9 do write\(a\[i\],'' ''\); 
+writeln\(a\[10\]\);
 
-  for (int i = 1; i &lt;= 10; i ++ \) printf\("%d ",i\); \r\n应写成 for\( int i = 1; i &lt;= 9; i ++ \) printf\( "%d ", i \); printf\( "%d\n", 10 \);        \r\n\r\n对于数据a\(10\);\r\nPASCAL：\r\n\[code\]不能这样写 for i:=1 to 10 do write\(a\[i\],'' ''\); \r\n正确的写法是 for i:=1 to 9 do write\(a\[i\],'' ''\); writeln\(a\[10\]\);\[/code\]\r\n\r\n', '220.189.223.234', 3778, 0, 0, 1, 0, 0, -1, 0, 0, 0, 0, 0, '', 0, 0, 1\),
 
 ### 编译错误（Compile Error，CE）
 
