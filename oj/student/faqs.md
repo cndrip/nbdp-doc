@@ -24,38 +24,18 @@ A:你的程序应该从标准输入 stdin\('Standard Input'\)获取输入，并�
 
 [1000题的参考答案](/oj/student/1000.md)
 
-
-
 ---
 
 Q:为什么我的程序在自己的电脑上正常编译，而系统告诉我编译错误!
 
 A:GCC的编译标准与VC6有些不同，更加符合c/c++标准:
 
-* main  
-  函数必须返回  
-  int  
-  ,  
-  void main  
-  的函数声明会报编译错误。
+* `main`  函数必须返回 `int` ,  `void main` 的函数声明会报编译错误。
+* `i ` 在循环外失去定义 `for (int i=0...){...}`
+* `itoa`  不是`ansi`标准函数.
+* `\_\_int64` 不是`ANSI`标准定义，只能在`VC`使用, 但是可以使用 `long long` 声明64位整数。
 
-* i  
-  在循环外失去定义 "  
-  for  
-  \(  
-  int  
-  i  
-  =0...\){...}"
-
-* itoa  
-  不是ansi标准函数.
-
-* \_\_int64  
-  不是ANSI标准定义，只能在VC使用, 但是可以使用  
-  long long  
-  声明64位整数。
-
-  如果用了\_\_int64,试试提交前加一句\#define \_\_int64 long long
+  如果用了`\_\_int64`,试试提交前加一句`\#define \_\_int64 long long`
 
 ---
 
