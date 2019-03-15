@@ -4,8 +4,9 @@
 分以下三种情况
 
 * ![](/images/oj/student/ac.png) 你的答案可能是第一个提交，或你提交的答案与别人的没有相似之处
-* ![](/images/oj/student/ac1.png)
-* ![](/images/oj/student/ac2.png)
+* ![](/images/oj/student/ac1.png) 你提交的代码与提交ID为`102081` 完全一样
+* ![](/images/oj/student/ac2.png) 你提交的代码与提交ID为`97347` 有`95%` 相似
+
 
 ### 编译错误（Compile Error，CE）
 
