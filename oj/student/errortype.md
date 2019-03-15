@@ -19,7 +19,7 @@
 
 “答案错误”时比较令人懊恼的结果，因为这说明代码有漏洞或者算法根本就是错误的，只是恰好能过样例而已。不过有时可能时应为输出了一些调试信息导致的，那就删除多余的输入内容再输出。当然，大部分情况下都需要认真检测代码逻辑有没有问题。
 
-![](/images/oj/student/wa1.png)![](/images/oj/student/wa2.png)
+![](/images/oj/student/wa1.png)![](/images/oj/student/wa2.png)![](/images/oj/student/format.png)
 
 ### 运行超时（Time Limit Exceeded， TLE）
 
