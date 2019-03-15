@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-竞赛列表
-=======
 ## 竞赛列表
 
 竞赛列表可以查看系统中所有使用过的竞赛，并提供切换竞赛模式、删除竞赛、恢复竞赛、编辑竞赛和复制竞赛的操作按钮。
-![](/images/oj/contestlist.png)
+![](/images/oj/teacher/contestlist.png)
