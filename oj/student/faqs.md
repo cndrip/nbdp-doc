@@ -22,63 +22,9 @@ A:你的程序应该从标准输入 stdin\('Standard Input'\)获取输入，并�
 
 用户程序不允许直接读写文件, 如果这样做可能会判为运行时错误 "Runtime Error"。
 
-下面是 1000题的参考答案
+[1000题的参考答案](/oj/student/1000.md)
 
-C++:
 
-```cpp
-#include <iostream>
-using namespace std;
-int main(){
-    int a,b;
-    while(cin >> a >> b)
-        cout << a+b << endl;
-	return 0;
-}
-```
-
-C:
-
-```c
-#include <stdio.h>
-int main(){
-    int a,b;
-    while(scanf("%d %d",&a, &b) != EOF)
-        printf("%d\n",a+b);
-	return 0;
-}
-```
-
-PASCAL:
-
-```
-program p1001(Input,Output); 
-var 
-  a,b:Integer; 
-begin 
-   while not eof(Input) do 
-     begin 
-       Readln(a,b); 
-       Writeln(a+b); 
-     end; 
-end.
-```
-
-Java:
-
-```java
-import java.util.*;
-public class Main{
-	public static void main(String args[]){
-		Scanner cin = new Scanner(System.in);
-		int a, b;
-		while (cin.hasNext()){
-			a = cin.nextInt(); b = cin.nextInt();
-			System.out.println(a + b);
-		}
-	}
-}
-```
 
 ---
 
