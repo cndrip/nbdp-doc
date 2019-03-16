@@ -21,37 +21,49 @@
   #### 一行输出1-10 十个数 之间空一格示例：
 
   PASCAL：不能这样写
-```pascal
+
+  ```pascal
   for i:=1 to 10 do write(i,' ');
-```
-  正确的写法是 
-```pascal
+  ```
+
+  正确的写法是
+
+  ```pascal
   for i:=1 to 9 do write(i,' ');
   writeln(10);
-```
-  C++：不能写成 
-```C++ 
-  for (int i = 1; i<= 10; i ++) 
-     printf("%d ",i); 
-```
-应写成   
-```C++ 
- for( int i = 1; i <= 9; i ++ ) printf( "%d ", i ); 
- printf( "%d\n", 10 ); 
-```
-对于数组`a(10)`;
+  ```
 
-PASCAL：不能这样写 
+  C++：不能写成
+
+  ```C++
+  for (int i = 1; i<= 10; i ++) 
+     printf("%d ",i);
+  ```
+
+  应写成
+
+  ```C++
+  for( int i = 1; i <= 9; i ++ ) printf( "%d ", i ); 
+  printf( "%d\n", 10 );
+  ```
+
+  对于数组`a(10)`;
+
+PASCAL：不能这样写
+
 ```pascal
-for i:=1 to 10 do write(a[i],' '); 
+for i:=1 to 10 do write(a[i],' ');
 ```
+
 正确的写法是
+
 ```pascal
 for i:=1 to 9 do write(a[i],' ');
 writeln(a[10]);
 ```
 
 C++正确写法
+
 ```C++
 for (int i=1; i<=9; i++) cout<<a[i]<<" ";
 cout<<a[10]<<endl;
@@ -59,16 +71,18 @@ cout<<a[10]<<endl;
 
 ### 编译错误（Compile Error，CE）
 
-很显然，如果代码没有办法通过编译，那么就会返回`Compile Error`。
+很显然，如果代码没有办法通过编译，那么就会返回`Compile Error`。  
 ![](/images/oj/student/ce1.png)
 
 错误原因可能有:
+
 * 选错了语言，你用`C++`的代码，提交了`C`的编译器
 * 本地尚未测试\(调试\)，存在语法错误
 
 ### 答案错误（Wrong Answer， WA）
 
 “答案错误”时比较令人懊恼的结果，因为这说明代码有漏洞或者算法根本就是错误的，只是恰好能过样例而已。不过有时可能时应为输出了一些调试信息导致的，那就删除多余的输入内容再输出。当然，大部分情况下都需要认真检测代码逻辑有没有问题。
+
 * ![](/images/oj/student/wa1.png) 所有组的数据都没有通过
 * ![](/images/oj/student/wa2.png) 通过了`90%`的数据，即错误 `10%`,可以理解为100分的题目，得了90分。
 
@@ -76,7 +90,9 @@ cout<<a[10]<<endl;
 
 由于每道题都会规定程序运行时间的上限，因此当超过这个限制时就会返回`TLE`。一般来说，这一结果可能是由算法的时间复杂度过大而导致的，当然也可能时某组数据使得代码中某处地方死循环掉了。因此，要仔细思考最坏时间复杂度是多少，或者检查代码中是否可能数显特殊数据死循环的情况。
 
-### 运行错误（Runtime Error， RE）![](/images/oj/student/runtime.png)![](/images/oj/student/re1.png)![](/images/oj/student/re2.png)
+* ![](/images/oj/student/tle.png)![](/images/oj/student/runtime.png)
+
+### 运行错误（Runtime Error， RE）![](/images/oj/student/re1.png)![](/images/oj/student/re2.png)
 
 ### 
 
