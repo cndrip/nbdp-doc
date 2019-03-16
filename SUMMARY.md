@@ -10,6 +10,7 @@
     * [常见问题](oj/student/faqs.md)
     * [问题1000](oj/student/1000.md)
     * [错误类型](oj/student/errortype.md)
+    * [如何提交](oj/student/submit.md)
   * [教师操作手册](oj/teacher.md)
     * [权限获得](oj/teacher/privatemd.md)
     * [查看前台](oj/teacher/watch.md)
