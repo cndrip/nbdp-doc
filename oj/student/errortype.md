@@ -90,7 +90,8 @@ cout<<a[10]<<endl;
 
 由于每道题都会规定程序运行时间的上限，因此当超过这个限制时就会返回`TLE`。一般来说，这一结果可能是由算法的时间复杂度过大而导致的，当然也可能时某组数据使得代码中某处地方死循环掉了。因此，要仔细思考最坏时间复杂度是多少，或者检查代码中是否可能数显特殊数据死循环的情况。
 
-* ![](/images/oj/student/tle.png)![](/images/oj/student/runtime.png)
+* ![](/images/oj/student/tle.png) 一组数据都没有通过，可能的原因：你的代码根本没有输出或死循了。
+* ![](/images/oj/student/runtime.png) 你通过了`90%`，只有 `10%`没有通过，说明你的算法有待改进和优化。
 
 ### 运行错误（Runtime Error， RE）![](/images/oj/student/re1.png)![](/images/oj/student/re2.png)
 
