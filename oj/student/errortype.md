@@ -40,13 +40,22 @@
  printf( "%d\n", 10 ); 
 ```
 对于数组`a(10)`;
-PASCAL：
-不能这样写 
-for i:=1 to 10 do write(a\[i\],'' ''\); 
-正确的写法是 
-for i:=1 to 9 do write\(a\[i\],'' ''\); 
-writeln\(a\[10\]\);
 
+PASCAL：不能这样写 
+```pascal
+for i:=1 to 10 do write(a[i],' '); 
+```
+正确的写法是
+```pascal
+for i:=1 to 9 do write(a[i],' ');
+writeln(a[10]);
+```
+
+C++正确写法
+```C++
+for (int i=1; i<=9; i++) cout<<a[i]<<" ";
+cout<<a[10]<<endl;
+```
 
 ### 编译错误（Compile Error，CE）
 
