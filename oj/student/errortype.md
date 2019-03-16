@@ -8,6 +8,8 @@
 * ![](/images/oj/student/ac2.png) 你提交的代码与提交ID为`97347` 有`95%` 相似
 
 ### 格式错误 （Presentation Error，PE）
+这应该是最接近Accepted 的错误了，基本上由多输出了空格或者换行导致的，稍作修改即可。
+
 
 **原因：**输出结果行末没有_换行_或_有多余换行_以及_行末有空格_均算格式错误！
 
@@ -93,21 +95,23 @@ cout<<a[10]<<endl;
 * ![](/images/oj/student/tle.png) 一组数据都没有通过，可能的原因：你的代码根本没有输出或死循了。
 * ![](/images/oj/student/runtime.png) 你通过了`90%`，只有 `10%`没有通过，说明你的算法有待改进和优化。
 
-### 运行错误（Runtime Error， RE）![](/images/oj/student/re1.png)![](/images/oj/student/re2.png)
+### 运行错误（Runtime Error， RE）
+这一结果的可能性非常多，常见的有段错误[`Runtime Error:Segmentation fault`]（直接的原因时非法访问了内存，例如数组越界，指针乱指），浮点错误（例如除数为0，模数为0），递归爆栈（一般由递归时层数过深导致的）等。一般来说，需要先检查数组大小是否比题目的数据范围大，然后再去检查可不可能有特殊数据可以使除数或者模数为0，有递归的情况则检查是否在大数据时递归层数太深。
+* ![](/images/oj/student/re1.png)
+* ![](/images/oj/student/re2.png)
 
-### 
+### 内存超限（Memory Limit Exceed，MLE）
 
-Runtime Error:Segmentation fault
+每道题目都有规定程序使用的空间上限，因此如果程序中使用太多的空间，则会返回`MLE`，例如数组太大一般最容易导致这个结果。  
+* ![](/images/oj/student/mle1.png)
+* ![](/images/oj/student/mle2.png)
+ 
 
-![](/images/oj/student/re1.png)这一结果的可能性非常多，常见的有段错误（直接的原因时非法访问了内存，例如数组越界，指针乱指），浮点错误（例如除数为0，模数为0），递归爆栈（一般由递归时层数过深导致的）等。一般来说，需要先检查数组大小是否比题目的数据范围大，然后再去检查可不可能有特殊数据可以使除数或者模数为0，有递归的情况则检查是否在大数据时递归层数太深。
-
-### 内存超限（Memory Limit Exceed，MLE）![](/images/oj/student/mle1.png)![](/images/oj/student/mle2.png)
-
-每道题目都有规定程序使用的空间上限，因此如果程序中使用太多的空间，则会返回MLE，例如数组太大一般最容易导致这个结果。  
-格式错误（Presentation Error， PE）  
-  这应该是最接近Accepted 的错误了，基本上由多输出了空格或者换行导致的，稍作修改即可。
-
-### 输出超限（Output Limit Exceeded， OLE）![](/images/oj/student/ole1.png)![](/images/oj/student/ole2.png)
+### 输出超限（Output Limit Exceeded， OLE）
 
 如果程序输出了过量的内容（一般是指过量非常多），那么就会返回OLE。一般是由输出了大量的调试信息或者特殊数据导致的死循环输出导致的。
+* ![](/images/oj/student/ole1.png)
+* ![](/images/oj/student/ole2.png)
+
+
 
