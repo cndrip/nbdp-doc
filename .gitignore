@@ -25,6 +25,7 @@ build/Release
 node_modules
 
 _book/
+docs/
 book.pdf
 book.epub
 book.mobi

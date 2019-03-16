@@ -55,10 +55,10 @@
     <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="../teacher.html" />
+    <link rel="next" href="errortype.html" />
     
     
-    <link rel="prev" href="../student.html" />
+    <link rel="prev" href="faqs.html" />
     
 
     </head>
@@ -113,9 +113,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.3" data-path="../../login/readme.html">
+        <li class="chapter " data-level="1.3" data-path="../../login/">
             
-                <a href="../../login/readme.html">
+                <a href="../../login/">
             
                     
                     登录
@@ -158,9 +158,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.4" data-path="../readme.html">
+        <li class="chapter " data-level="1.4" data-path="../">
             
-                <a href="../readme.html">
+                <a href="../">
             
                     
                     OJ平台
@@ -186,12 +186,38 @@
             <ul class="articles">
                 
     
-        <li class="chapter active" data-level="1.4.1.1" data-path="1000.html">
+        <li class="chapter " data-level="1.4.1.1" data-path="faqs.html">
+            
+                <a href="faqs.html">
+            
+                    
+                    常见问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.4.1.2" data-path="1000.html">
             
                 <a href="1000.html">
             
                     
                     问题1000
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.3" data-path="errortype.html">
+            
+                <a href="errortype.html">
+            
+                    
+                    错误类型
             
                 </a>
             
@@ -345,9 +371,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5" data-path="../../lib/readme.html">
+        <li class="chapter " data-level="1.5" data-path="../../lib/">
             
-                <a href="../../lib/readme.html">
+                <a href="../../lib/">
             
                     
                     初赛题库
@@ -415,50 +441,51 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <p>&#x4E0B;&#x9762;&#x662F; 1000&#x9898;&#x7684;&#x53C2;&#x8003;&#x7B54;&#x6848;</p>
+                                <h2 id="&#x7B2C;1000&#x9898;&#x7684;&#x53C2;&#x8003;&#x7B54;&#x6848;">&#x7B2C;1000&#x9898;&#x7684;&#x53C2;&#x8003;&#x7B54;&#x6848;</h2>
 <p>C++:</p>
-<p><code>#include &lt;iostream&gt;
-using namespace std;
-int main(){
-    int a,b;
-    while(cin &gt;&gt; a &gt;&gt; b)
-        cout &lt;&lt; a+b &lt;&lt; endl;
-    return 0;
-}</code></p>
-<p>C:
-```#include <stdio.h>
-int main(){
-    int a,b;
-    while(scanf(&quot;%d %d&quot;,&amp;a, &amp;b) != EOF)
-        printf(&quot;%d\n&quot;,a+b);
-    return 0;
-}</stdio.h></p>
-<pre><code>
-PASCAL:
-</code></pre><p>program p1001(Input,Output); 
-var 
+<pre><code class="lang-cpp"><span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string">&lt;iostream&gt;</span></span>
+<span class="hljs-keyword">using</span> <span class="hljs-keyword">namespace</span> <span class="hljs-built_in">std</span>;
+<span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span></span>{
+    <span class="hljs-keyword">int</span> a,b;
+    <span class="hljs-keyword">while</span>(<span class="hljs-built_in">cin</span> &gt;&gt; a &gt;&gt; b)
+        <span class="hljs-built_in">cout</span> &lt;&lt; a+b &lt;&lt; <span class="hljs-built_in">endl</span>;
+    <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;
+}
+</code></pre>
+<p>C:</p>
+<pre><code class="lang-c"><span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string">&lt;stdio.h&gt;</span></span>
+<span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span></span>{
+    <span class="hljs-keyword">int</span> a,b;
+    <span class="hljs-keyword">while</span>(<span class="hljs-built_in">scanf</span>(<span class="hljs-string">&quot;%d %d&quot;</span>,&amp;a, &amp;b) != EOF)
+        <span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;%d\n&quot;</span>,a+b);
+    <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;
+}
+</code></pre>
+<p>PASCAL:</p>
+<pre><code class="lang-pascal"><span class="hljs-keyword">program</span> p1001(Input,Output); 
+<span class="hljs-keyword">var</span> 
   a,b:Integer; 
-begin 
-   while not eof(Input) do 
-     begin 
+<span class="hljs-keyword">begin</span> 
+   <span class="hljs-keyword">while</span> <span class="hljs-keyword">not</span> eof(Input) <span class="hljs-keyword">do</span> 
+     <span class="hljs-keyword">begin</span> 
        Readln(a,b); 
        Writeln(a+b); 
-     end; 
-end.</p>
-<pre><code>
-Java:
-</code></pre><p>import java.util.*;
-public class Main{
-    public static void main(String args[]){
-        Scanner cin = new Scanner(System.in);
-        int a, b;
-        while (cin.hasNext()){
+     <span class="hljs-keyword">end</span>; 
+<span class="hljs-keyword">end</span>.
+</code></pre>
+<p>Java:</p>
+<pre><code class="lang-java"><span class="hljs-keyword">import</span> java.util.*;
+<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Main</span></span>{
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span><span class="hljs-params">(String args[])</span></span>{
+        Scanner cin = <span class="hljs-keyword">new</span> Scanner(System.in);
+        <span class="hljs-keyword">int</span> a, b;
+        <span class="hljs-keyword">while</span> (cin.hasNext()){
             a = cin.nextInt(); b = cin.nextInt();
             System.out.println(a + b);
         }
     }
 }
-```</p>
+</code></pre>
 
                                 
                                 </section>
@@ -486,12 +513,12 @@ public class Main{
 
             
                 
-                <a href="../student.html" class="navigation navigation-prev " aria-label="Previous page: 学生手册">
+                <a href="faqs.html" class="navigation navigation-prev " aria-label="Previous page: 常见问题">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="../teacher.html" class="navigation navigation-next " aria-label="Next page: 教师操作手册">
+                <a href="errortype.html" class="navigation navigation-next " aria-label="Next page: 错误类型">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -502,7 +529,7 @@ public class Main{
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"问题1000","level":"1.4.1.1","depth":3,"next":{"title":"教师操作手册","level":"1.4.2","depth":2,"path":"oj/teacher.md","ref":"oj/teacher.md","articles":[{"title":"权限获得","level":"1.4.2.1","depth":3,"path":"oj/teacher/privatemd.md","ref":"oj/teacher/privatemd.md","articles":[]},{"title":"查看前台","level":"1.4.2.2","depth":3,"path":"oj/teacher/watch.md","ref":"oj/teacher/watch.md","articles":[]},{"title":"问题列表","level":"1.4.2.3","depth":3,"path":"oj/teacher/problemset.md","ref":"oj/teacher/problemset.md","articles":[]},{"title":"添加竞赛","level":"1.4.2.4","depth":3,"path":"oj/teacher/addcontest.md","ref":"oj/teacher/addcontest.md","articles":[]},{"title":"竞赛列表","level":"1.4.2.5","depth":3,"path":"oj/teacher/contest.md","ref":"oj/teacher/contest.md","articles":[]},{"title":"复制比赛","level":"1.4.2.6","depth":3,"path":"oj/teacher/copytest.md","ref":"oj/teacher/copytest.md","articles":[]},{"title":"查看学生源码","level":"1.4.2.7","depth":3,"path":"oj/teacher/viewcode.md","ref":"oj/teacher/viewcode.md","articles":[]},{"title":"筛查作弊","level":"1.4.2.8","depth":3,"path":"oj/teacher/cheat.md","ref":"oj/teacher/cheat.md","articles":[]}]},"previous":{"title":"学生手册","level":"1.4.1","depth":2,"path":"oj/student.md","ref":"oj/student.md","articles":[{"title":"问题1000","level":"1.4.1.1","depth":3,"path":"oj/student/1000.md","ref":"oj/student/1000.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["lunr","search","anchorjs","sharing","splitter","theme-default-customize","expandable-chapters-small"],"styles":{"website":"./styles/website.css"},"pluginsConfig":{"splitter":{},"search":{"maxIndexSize":1000000000},"lunr":{"ignoreSpecialCharacters":false,"maxIndexSize":1000000000},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default-customize":{"showLevel":false,"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"}},"highlight":{},"expandable-chapters-small":{},"sharing":{"qq":true,"all":["facebook","google","twitter","weibo","instapaper"],"douban":false,"facebook":true,"weibo":true,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":false,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"github-issue-feedback-language-custom":{"repo":"cndrip/nbdp-doc","branch":"master"},"theme-default":{"showLevel":false,"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"}},"anchorjs":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"language":"zh-hans","gitbook":"*"},"file":{"path":"oj/student/1000.md","mtime":"2019-03-12T16:20:01.977Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-03-13T13:22:46.826Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"问题1000","level":"1.4.1.2","depth":3,"next":{"title":"错误类型","level":"1.4.1.3","depth":3,"path":"oj/student/errortype.md","ref":"oj/student/errortype.md","articles":[]},"previous":{"title":"常见问题","level":"1.4.1.1","depth":3,"path":"oj/student/faqs.md","ref":"oj/student/faqs.md","articles":[]},"dir":"ltr"},"config":{"plugins":["lunr","search","anchorjs","sharing","splitter","theme-default-customize","expandable-chapters-small"],"styles":{"website":"./styles/website.css"},"pluginsConfig":{"splitter":{},"search":{"maxIndexSize":1000000000},"lunr":{"ignoreSpecialCharacters":false,"maxIndexSize":1000000000},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default-customize":{"showLevel":false,"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"}},"highlight":{},"expandable-chapters-small":{},"sharing":{"qq":true,"all":["facebook","google","twitter","weibo","instapaper"],"douban":false,"facebook":true,"weibo":true,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":false,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"github-issue-feedback-language-custom":{"repo":"cndrip/nbdp-doc","branch":"master"},"theme-default":{"showLevel":false,"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"}},"anchorjs":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"language":"zh-hans","gitbook":"*"},"file":{"path":"oj/student/1000.md","mtime":"2019-03-15T15:35:26.196Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-03-16T01:33:02.133Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
 </div>

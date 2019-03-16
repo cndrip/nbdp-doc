@@ -1,7 +1,7 @@
 ## 添加竞赛
 
 一般课后作业、上机练习、上机考试，均可以竞赛方式实现。添加竞赛界面如下：
-![](/images/oj/addcontest.png)
+![](/images/oj/teacher/addcontest.png)
 - 其中`Title` 为竞赛标题，可以设为如“08信管 1班第一次课后作业”之类。
 - `StartTime` 和`EndTime` 为时间限定，竞赛开始前和结束后都不能提交新的解答，
 可以有效督促学生及时完成作业。
