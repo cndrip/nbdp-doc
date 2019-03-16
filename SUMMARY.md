@@ -2,10 +2,10 @@
 
 * [Introduction](README.md)
 * [总体介绍](about.md)
-* [登录](login/readme.md)
+* [登录](login/README.md)
   * [注册](login/register.md)
   * [登录](login/login.md)
-* [OJ平台](oj/readme.md)
+* [OJ平台](oj/README.md)
   * [学生手册](oj/student.md)
     * [常见问题](oj/student/faqs.md)
     * [问题1000](oj/student/1000.md)
@@ -20,6 +20,6 @@
     * [查看学生源码](oj/teacher/viewcode.md)
     * [筛查作弊](oj/teacher/cheat.md)
   * [升级记录](oj/update.md)
-* [初赛题库](lib/readme.md)
+* [初赛题库](lib/README.md)
 * [网站大事记](remark.md)
 
