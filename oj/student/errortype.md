@@ -117,5 +117,7 @@ cout<<a[10]<<endl;
 * ![](/images/oj/student/ole1.png)
 * ![](/images/oj/student/ole2.png)
 
+### 愚人节彩蛋
 
+* ![](/images/oj/student/fpegg.png)
 
