@@ -33,8 +33,17 @@ NOIP历年的所有题目
 教练可以（免费）申请成为付费用户，拥有教练权限，包括设置作业列表、查看自己学员代码等。
 
 ## 微信公众号及QQ群
+QQ群：368112645
+名称：中小学信息学及编程①
+![](/assets/qrcode-qq.jpg)
+
+微信号：nbnoip
+名称：中小学信息学及编程
+![](/assets/qrcode-wx.jpg)
 
 ## 微信小程序
+信息学NOIP
+![](/assets/mini-program.jpg)
 
 
 
