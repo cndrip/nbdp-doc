@@ -1,7 +1,6 @@
 # Summary
 
-* [Introduction](README.md)
-* [总体介绍](about.md)
+* [总体介绍](README.md)
 * [登录](login/README.md)
   * [注册](login/register.md)
   * [登录](login/login.md)
