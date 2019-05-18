@@ -43,7 +43,7 @@ QQ群：368112645
 
 ## 微信小程序
 信息学NOIP
-![](/assets/mini-program.jpg){:height="120"}
+![](/assets/mini-program.jpg)
 
 
 
