@@ -35,15 +35,15 @@ NOIP历年的所有题目
 ## QQ群及微信公众号
 QQ群：368112645
 名称：中小学信息学及编程①
-![](/assets/qrcode-qq.jpg)
+![](assets/qrcode-qq.jpg)
 
 微信号：nbnoip
 名称：中小学信息学及编程
-![](/assets/qrcode-wx.jpg)
+![](assets/qrcode-wx.jpg)
 
 ## 微信小程序
 信息学NOIP
-![](/assets/mini-program.jpg)
+![](assets/mini-program.jpg)
 
 
 
