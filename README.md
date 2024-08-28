@@ -41,9 +41,3 @@ QQ群：368112645
 名称：中小学信息学及编程
 ![](assets/qrcode-wx.jpg)
 
-## 微信小程序
-信息学NOIP
-![](assets/mini-program.jpg)
-
-
-
